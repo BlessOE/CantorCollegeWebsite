@@ -1,0 +1,89 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h1,
+h2 {
+	font-family: "Raleway", sans-serif;
+}
+/* #container {
+	margin: auto;
+	max-width: 1200px;
+	min-width: 600px;
+  } */
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 120px;
+}
+.head {
+	background-image: url(../images/desktop-banner.jpg);
+	height: 500px;
+	padding-left: 0;
+	/* line-height: 500px; */
+}
+.head h1 {
+	font-size: 70px;
+	font-weight: bold;
+	padding-top: 170px;
+}
+.head h3 {
+	font-size: 35px;
+	font-weight: bold;
+	padding-top: 0%;
+}
+.burger {
+	display: none;
+}
+/* header h1 {
+	color: #fff;
+	font-size: 4rem;
+	;
+	text-align: left;
+	padding: 5px;
+	display: inline;
+	margin: 0%;
+} */
+
+/* https://www.youtube.com/watch?v=rgUp302f_lY */
+/* Refered to this video to creat the drop down menu */
+nav {
+	display: block;
+	margin-top: 40px;
+	padding-left: 5px;
+	height: 50%;
+}
+nav li a:hover {
+	color: #e8ff7f;
+	text-decoration: underline;
+}
+nav ul {
+	padding-left: 0;
+	flex-direction: row;
+}
+nav ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav ul li:hover ul {
+	display: block;
+}
+nav ul li ul li {
+	padding-left: 0px;
+}
+nav ul li ul li ul li ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.sliderContainer {
+	padding-top: 10px;
+	width: 30%;
+}
+#myTestEvent:hover {
+	cursor: pointer;
+}
+section {
+	display: flex;
+}
+section > div > p {
+	margin-right: 20px;
+}

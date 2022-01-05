@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h1,
+h2 {
+	font-family: "Raleway", sans-serif;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+}
+.head h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
+.burger {
+	display: none;
+}
+nav {
+	display: block;
+	margin-top: 20px;
+	padding-left: 5px;
+	height: 50%;
+}
+nav li a:hover {
+	color: #e8ff7f;
+	text-decoration: underline;
+}
+nav ul {
+	padding-left: 0;
+	flex-direction: row;
+}
+nav ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav ul li:hover ul {
+	display: block;
+}
+nav ul li ul li {
+	padding-left: 0px;
+}
+#myTestEvent:hover {
+	cursor: pointer;
+}
+.pageTitle {
+	height: 80px;
+}
+.pageTitle h1 {
+	padding-top: 20px;
+}
+section {
+	padding-top: 10px;
+	display: flex;
+}
+.imgContents p {
+	margin-top: 10px;
+}
+.sliderContainer {
+	padding-top: 10px;
+	width: 30%;
+}
+section > div > p {
+	margin-right: 20px;
+}
+
+/* Form Styling */
+form {
+	width: 50%;
+	margin: left;
+}
+form > div {
+	margin: 15px 0;
+	display: flex;
+}
+label {
+	flex-basis: 120px;
+}
+.submitContainer {
+	justify-content: flex-end;
+}
+input[type="submit"] {
+	width: auto;
+	margin: 0;
+}
+
+/* iframe styling */
+.iframe {
+	width: 900px;
+	height: 450px;
+}
+.iframe iframe {
+	display: block;
+	width: 900px;
+	height: 450px;
+	margin: 0%;
+}
+.address {
+	margin-top: 10px;
+	height: 440px;
+}
+.campusMobile {
+	display: none;
+}
+.campusDesktop {
+	display: block;
+}

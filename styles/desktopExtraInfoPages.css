@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+h1,
+h2 {
+	font-family: "Raleway", sans-serif;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+}
+.head h1 {
+	font-size: 70px;
+	font-weight: bold;
+}
+.burger {
+	display: none;
+}
+nav {
+	display: block;
+	margin-top: 20px;
+	padding-left: 5px;
+	height: 50%;
+}
+nav li a:hover {
+	color: #e8ff7f;
+	text-decoration: underline;
+}
+nav ul {
+	padding-left: 0;
+	flex-direction: row;
+}
+nav ul li {
+	display: inline;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+nav ul li:hover ul {
+	display: block;
+}
+nav ul li ul li {
+	padding-left: 0px;
+}
+#myTestEvent:hover {
+	cursor: pointer;
+}
+.pageTitle {
+	height: 80px;
+}
+.pageTitle h1 {
+	padding-top: 20px;
+}
+.mainLinks {
+	justify-content: left;
+}
+.mainLinks p {
+	padding: 30px;
+	padding-top: 10px;
+	padding-bottom: 0%;
+	margin-bottom: 0%;
+	vertical-align: middle;
+	font-weight: bold;
+}
+.mainLinks p a {
+	text-decoration: none;
+	color: #000;
+}
+.mainLinks h5 {
+	border-bottom: 2px solid #ccc;
+	padding: 30px;
+	padding-top: 5px;
+	margin-top: 0%;
+	vertical-align: middle;
+	width: 200%;
+	font-weight: normal;
+}
+a:hover {
+	color: #533e0d;
+	text-decoration: underline;
+}
+.flexContainer {
+	display: flex;
+	margin: 10px 0px;
+}
+.sidebar {
+	border: 1px solid #000;
+	padding: 10px;
+	margin: 10px;
+}
+.mainContent {
+	padding: 10px;
+	margin: 10px;
+}
+.sidebar {
+	flex: 1 1 25%;
+}
+.mainContent {
+	flex: 1 1 75%;
+}
+.mainContent p {
+	margin: 0px;
+	padding-top: 5px;
+}
